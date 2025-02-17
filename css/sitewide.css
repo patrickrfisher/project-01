@@ -1,0 +1,65 @@
+/* #2B2D42 space cadet
+    #8D99AE cool gray
+    #EDF2F4 egg white
+    #EF233C light red
+    #D80032 dark red
+    */
+
+body{
+    text-align: center;
+    font-family: Impact,Charcoal,sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    border-radius: 25px;
+    margin: 20px 20px;
+}
+#artist1-info{
+    text-align: left;
+}
+#artist2-info{
+    text-align: right;
+}
+#artist3-info{
+    text-align: right;
+}
+#nav_bar{
+    background-color: #D80032;
+}
+#NKMlogo{
+    border-radius: 50px;
+}
+body{
+    background-color: #EF233C ;
+}
+section{
+    background-color: #EDF2F4;
+    border-radius: 40px;
+    margin: 10px 10px;
+}
+.nav-link{
+    background-color: #EDF2F4;
+    border-style: outset;
+    border-width: 5px;
+    margin: 15px 15px;
+}
+.map-link{
+    color: #2B2D42;
+    text-decoration-line: none;
+    background-color: #EDF2F4;
+    border-style: outset;
+    border-width: 4px;
+    border-color: #8D99AE;
+    margin: 15px 15px;
+}
+.bio-box{
+    background-color: #EDF2F4;
+    border-radius: 20px;
+    margin: 10px 10px;
+}

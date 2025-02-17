@@ -3,57 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Kicks | About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/sitewide.css">
 </head>
+
 <body>
-
-<!-- navigation menu -->
-<div>
-    <a href="index.html"><img src="logo1.png" alt="logo1.png" width="200" height="20"></a>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact Us</a>
-</div>
-
-<p></p>
-<!-- main -->
-<div>
-
-    <!-- heder -->
-    <div>
-        <img alt="image1.png" src="image1.png" width="400" height="50">
+<nav class="navbar navbar-expand-lg" id="nav_bar">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img alt="missing-img" src="img/nice-kicks-man-high-resolution-logo.png" height=100 width=100 id="NKMLogo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="order.html">place order</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Our artist</a>
+                </li>
+            </ul>
+        </div>
     </div>
+</nav>
+<main>
+    <section id="header">
+        <h1>Our Stories</h1>
+        <p>
+          our artist
+        </p>
+    </section>
+    <div id="about-section">
+        <div id="artist1-info" class="bio-box">
+            <table>
+                <tr>
+                    <td>
+                        Ina J Fredericksen<br>
+                        Typical twitter expert. Friendly problem solver. Subtly charming tv advocate. Avid travel guru. Food junkie. Incurable internet nerd. Coffee maven. <br>
+                    </td>
+                    <td>
+                        <img alt="missing-image" src="img/artist1.jpg" height="199" width="200" class="artist-photos">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="artist2-info" class="bio-box">
+            <table>
+                <tr>
+                    <td>
+                        <img alt="missing-image" src="img/artist2.jpg" height="200" width="200" class="artist-photos">
+                    </td>
+                    <td>
+                        Hector V Coleman<br>
+                        Twitter junkie. Pop culture buff. Travel practitioner. Beer aficionado. Total alcohol ninja.<br>
 
-    <p></p>
-
-    <!-- content -->
-    <div>
-        <h1>About website</h1>
-
-        <p></p>
-
-        <!-- audio, video -->
-        <video width="320" height="240" controls>
-            <source src="movie1.mp4" type="video/mp4">
-            <source src="movie1.ogg" type="video/ogg">
-            Your browser does not support the video tag.
-        </video>
-        <p></p>
-
-        <audio controls>
-            <source src="audio1.ogg" type="audio/ogg">
-            <source src="audio1.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="artist3-info" class="bio-box">
+            <table>
+                <tr>
+                    <td>
+                        Joyce W Faulkner<br>
+                        Passionate creator. Falls down a lot. Incurable gamer. Proud music expert. Wannabe twitter practitioner. Subtly charming social media fan.<br>
+                    </td>
+                    <td>
+                        <img alt="missing-image" src="img/artist3.jpg" height="200" width="200" class="artist-photos">
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
-
-    <!-- footer -->
-    <div>
-
-    </div>
-
-</div>
-
+</main>
 </body>
 </html>
